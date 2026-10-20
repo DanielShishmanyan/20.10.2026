@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Записване за Фест Искра</title>
+</head>
+<body class="bg-blue-100 text-blue-900">
+    <main class="mx-auto my-10 w-2/5 rounded-2xl bg-yellow-300 p-8 shadow-lg">
+            <a href="festival.html" class="mb-6 inline-block font-semibold hover:underline">← Към фестивала</a>
+            <h1 class="mb-6 text-center text-2xl font-bold">Записване за участие</h1>
+
+            <div>
+                <label for="participant-name" class="mb-1 block font-semibold">Имена на участник</label>
+                <input id="participant-name" type="text" placeholder="Име и фамилия" class="mb-4 w-full rounded-lg border border-blue-200 bg-white p-3 focus:outline-2 focus:outline-blue-900">
+            </div>
+
+            <div>
+                <label for="email" class="mb-1 block font-semibold">Имейл</label>
+                <input id="email" type="email" placeholder="name@example.com" class="mb-4 w-full rounded-lg border border-blue-200 bg-white p-3 focus:outline-2 focus:outline-blue-900">
+            </div>
+
+            <div>
+                <label for="phone" class="mb-1 block font-semibold">Телефон</label>
+                <input id="phone" type="tel" placeholder="Например: 0888 123 456" class="mb-4 w-full rounded-lg border border-blue-200 bg-white p-3 focus:outline-2 focus:outline-blue-900">
+            </div>
+
+            <div>
+                <label for="other-contact" class="mb-1 block font-semibold">Други данни за контакт</label>
+                <textarea id="other-contact" rows="3" placeholder="Друг начин за връзка с вас" class="mb-4 w-full rounded-lg border border-blue-200 bg-white p-3 focus:outline-2 focus:outline-blue-900"></textarea>
+            </div>
+
+            <button type="button" class="w-full rounded-lg bg-blue-900 py-3 font-bold text-white hover:bg-blue-800">Запиши се</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@source "../*.html";
+
+.activity-underline {
+    display: inline-block;
+    padding-bottom: 8px;
+    background-image: linear-gradient(#fde047, #fde047);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.5s ease;
+}
+
+.activity-underline:hover {
+    background-size: 100% 2px;
+}
